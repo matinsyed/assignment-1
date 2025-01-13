@@ -215,10 +215,95 @@ select{
     width: 152px;
     height: 44px;
 }
-/* .tbl-opinion{
-    border: 1px;
-    padding: 24px;
+.news{
+    margin: 0px 160px;
+}
+.news-container{
+    display: flex;
+    flex-direction:column;
+    row-gap: 24px;
+}
+.news-section-head{
+    margin: 24px 0px 32px 0px;
+}
+.news-card1{
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 48px;
+    display: flex;
+    gap: 32px;
+}
+.news-card2{
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 48px;
+    display: flex;
+    gap: 32px;
+}
+.news-card3{
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 48px;
+    display: flex;
+    gap: 32px;
+}
+.news-image img{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+.news-dtls h2{
+    font-weight: 600;
+    font-size: 32px;
+    margin: 0px;
+    opacity: 80%;
+}
+.news-time, .news-details{
+    opacity: 70%;
+}
+
+.donation{
+    margin: 80px 160px;
+    text-align: center;
+}
+.donation-heading p{
+    margin: 24px 0px;
+    padding: 0px 50px;
+    opacity: 70%;
+}
+/* .donation-form{
+    display: flex;
+    flex-direction: column;
+    
 } */
+.donation-btn{
+    align-items: center;    
+    gap: 15px;  
+    margin: 20px 0px; 
+}
+.donation-amount{
+    height: 64px;
+    width: 230px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 700;
+    opacity: 80%;
+    
+}
+.default-amount{
+    background-color: blueviolet;
+}
+.other-donation-amount{
+    /* height: 45px; */
+    width:800px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    padding: 20px 40px;
+    opacity: 30%;
+    text-align: center;
+    margin-bottom: 16px;
+}
 footer{
     width: 100%;
     margin: 0%;
