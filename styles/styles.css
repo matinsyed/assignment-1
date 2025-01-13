@@ -149,6 +149,28 @@ nav{
 .vision-button3{
     background-color: #FFC239;
 }
+.vision-qoute{
+    background-color: #FFFFFF;
+    background-image: url(../asset/image/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 25px 16px; /* LEFT TOP*/
+    border-radius: 16px;    
+    padding:  30px 24px;
+}
+.qoute{
+    opacity: 80%;
+    margin-bottom: 12px;
+}
+#sinature{
+    font-weight: 600px;
+    font-size: 20px;
+    opacity: 80%;   
+    margin-bottom: 4px; 
+}
+#designation{
+    opacity: 60%;
+    margin: 0px;
+}
 footer{
     width: 100%;
     margin: 0%;
