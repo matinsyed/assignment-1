@@ -19,7 +19,7 @@ nav{
     width: 116px;
     border-radius: 8px;
     font-size: 18px;
-    font-weight: 600px; /* 600px indicates semi-bold*/
+    font-weight: 600; /* 600px indicates semi-bold*/
     color: #006A50;
 }
 .banner{
@@ -36,14 +36,14 @@ nav{
 .banner-title{
     margin: 0px 0px 16px 0px;
     font-size: 24px;
-    font-weight: 500px; /* 500px indicates medium*/
+    font-weight: 500; /* 500px indicates medium*/
     opacity: 50%;
 }
 
 .banner p{
     margin: 0px 0px 24px 0px;
     font-size: 56px;
-    font-weight: 700px; /* 700px indicates bold*/
+    font-weight: 700; /* 700px indicates bold*/
 }
 
 .banner-btn{
@@ -52,7 +52,7 @@ nav{
     border-radius: 8px;
     padding: 17px 34px;
     font-size: 18px;
-    font-weight: 600px; /* 600px indicates semi-bold*/
+    font-weight: 600; /* 600px indicates semi-bold*/
     color: #FFFFFF;
 }
 
@@ -63,7 +63,7 @@ nav{
 .pillar-head{
     margin: 0px;
     font-size: 40px;
-    font-weight: 700px; /* 700px indicates bold*/
+    font-weight: 700; /* 700px indicates bold*/
 }
 .pillar-container{
     display: flex;
@@ -137,7 +137,7 @@ nav{
     padding: 11px 20px;
     border-radius: 8px;
     border: none;
-    font-weight: 600px;
+    font-weight: 600;
     color:#FFFFFF;
 }
 .vision-button1{
@@ -162,7 +162,7 @@ nav{
     margin-bottom: 12px;
 }
 #sinature{
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 20px;
     opacity: 80%;   
     margin-bottom: 4px; 
@@ -171,6 +171,54 @@ nav{
     opacity: 60%;
     margin: 0px;
 }
+.opinion{
+    margin: 80px 160px;
+}
+.opinion-title h1{
+    margin: 0px;
+    font-size: 40px;
+    font-weight: 700; /* 700px indicates bold*/
+}
+.opinion-container{
+    background-color: #FFFFFF;
+    margin-top: 24px;
+    padding: 32px;
+    border-radius: 16px;
+}
+/* Hovering Effect on Button */
+button:hover{
+    background-color: red;
+}
+table{
+    width: 100%;
+    text-indent: 24px;
+    border-color: #FFFFFF;   
+    stroke-opacity: 15%;
+    
+}
+table tr{
+    height: 60px;
+}
+td{
+    font-weight:600;
+}
+thead{
+    text-align: left;   
+}
+table th{
+    background-color: #C6E4D6;
+}
+select{
+    background-color: #C6E4D6;    
+    padding: 10px 14px;
+    border-radius: 16px;
+    width: 152px;
+    height: 44px;
+}
+/* .tbl-opinion{
+    border: 1px;
+    padding: 24px;
+} */
 footer{
     width: 100%;
     margin: 0%;
