@@ -306,7 +306,7 @@ select{
 }
 .subscription{
     background-color: #C6E4D6;
-    margin: 0px 160px 32px 160px;
+    margin: 0px 160px 60px 160px;
     padding: 30px 250px;
     border-radius: 16px;
     text-align: center;
@@ -342,8 +342,15 @@ select{
     border-bottom-right-radius: 10px;
     padding: 17px 34px;
 }
-footer{
-    width: 100%;
-    margin: 0%;
-    background-color: rgb(0, 109, 117);
+.footer{    
+    background-color:#FFFFFF;
+    padding: 50px 160px;
+    text-align: center;
+}
+.footer h2{
+    font-size: 32px;
+    font-weight: bold;
+}
+.footer hr{
+    opacity: 15%;
 }
