@@ -188,6 +188,7 @@ nav{
 /* Hovering Effect on Button */
 button:hover{
     background-color: red;
+    color: #FFFFFF;
 }
 table{
     width: 100%;
